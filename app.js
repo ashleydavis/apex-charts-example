@@ -1,4 +1,4 @@
-const chartDef = {
+/*const chartDef = {
     "chart": {
         "type": "line",
         "animations": {
@@ -2015,6 +2015,102 @@ const chartDef = {
             ]
         }
     ]
+};
+*/
+
+const chartDef = {
+    "chart": {
+        "type": "line",
+        "width": 800,
+        "height": 600,
+        "animations": {
+            "enabled": true
+        },
+        "zoom": {
+            "enabled": true
+        },
+        "toolbar": {
+            "show": true
+        }
+    },
+    "series": [
+        {
+            "name": "data1",
+            "data": [
+                {
+                    "x": 0,
+                    "y": 30
+                },
+                {
+                    "x": 1,
+                    "y": 200
+                },
+                {
+                    "x": 2,
+                    "y": 100
+                },
+                {
+                    "x": 3,
+                    "y": 400
+                },
+                {
+                    "x": 4,
+                    "y": 150
+                },
+                {
+                    "x": 5,
+                    "y": 250
+                }
+            ]
+        },
+        {
+            "name": "data2",
+            "data": [
+                {
+                    "x": 0,
+                    "y": 50
+                },
+                {
+                    "x": 1,
+                    "y": 20
+                },
+                {
+                    "x": 2,
+                    "y": 10
+                },
+                {
+                    "x": 3,
+                    "y": 40
+                },
+                {
+                    "x": 4,
+                    "y": 15
+                },
+                {
+                    "x": 5,
+                    "y": 25
+                }
+            ]
+        }
+    ],
+    "yaxis": [
+        {
+            //"seriesName": "data1",
+            "opposite": false,
+            "min": 0,
+            "max": 400
+        },
+        {
+            //"seriesName": "data1",
+            "show": false,
+            "opposite": false,
+            "min": 0,
+            "max": 400
+        }
+    ],
+    "tooltip": {
+        "enabled": true
+    }
 };
 
 var chart = new ApexCharts(document.querySelector("#chart"), chartDef);
