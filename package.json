@@ -1,0 +1,24 @@
+{
+  "name": "apex-charts-example",
+  "version": "1.0.0",
+  "description": "An example of using Apex Charts",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashleydavis/apex-charts-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashleydavis/apex-charts-example/issues"
+  },
+  "homepage": "https://github.com/ashleydavis/apex-charts-example#readme",
+  "dependencies": {
+    "apexcharts": "^3.26.0",
+    "live-server": "^1.2.1"
+  }
+}
